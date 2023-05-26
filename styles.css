@@ -1,0 +1,272 @@
+* {
+    /* font-family: 'Agustina Regular', sans-serif; */
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    /* font-family: TiemposTextWeb-Regular,Georgia,Times,serif;  */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topdisplay {
+    background-color: white;
+    color: black;
+    padding: 5vh 2vw;
+    height: 1vh;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid rgb(237, 23, 23);
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+}
+.slogan{
+    width: 50%;
+    margin: 0px 400px;
+}
+.topheader {
+    display: flex;
+    justify-content: center;
+}
+
+.top1 {
+    display: flex;
+    /* width: 50%; */
+    /* text-align: ; */
+    margin: 0px 150px;
+    padding: 0px 0px;
+}
+.membership{
+    position: relative;
+    left: 360px; top: 5px;
+}
+#signup{
+    margin-left: 53px;
+}
+.premium :hover {
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    align-items: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.weblogo {
+    color: black;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: Copperplate;
+}
+
+.header {
+    color: white;
+    background-color: #282c34;
+    color: white;
+    padding: 2vh 1.5vw;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    margin: 0px 17px;
+    padding: 0px 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.topic:hover{
+    color: yellow;
+}
+.news{
+    margin-top: 190px;
+}
+.newsa {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    background-color: white;
+    color: black;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 190px 0px;
+}
+
+.news1 {
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.news2 {
+    align-self: center;
+    margin: auto;
+}
+
+.news3 {
+    align-self: center;
+    margin: auto;
+}
+
+.stock1 {
+    color: #279ac7;
+    font-weight: bold;
+}
+.geek1 {
+    color: white;
+    font-weight: bold;
+}
+
+.newsb {
+    display: flex;
+    flex-direction: row;
+    flex: 0;
+    background-color: white;
+    color: black;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.news4 {
+    align-self: center;
+
+    justify-content: center;
+    margin: auto;
+}
+
+.news5 {
+    align-self: center;
+    margin: auto;
+}
+
+.news6 {
+    align-self: center;
+    margin: auto;
+}
+
+.stock2 {
+    color: red;
+}
+
+.newsc {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    background-color: white;
+    color: black;
+    height: 400px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.news7 {
+    align-self: center;
+
+    justify-content: center;
+    margin: auto;
+}
+
+.news8 {
+    align-self: center;
+    margin: auto;
+}
+
+.news9 {
+    align-self: center;
+    margin: auto;
+}
+
+.para {
+    text-decoration: none;
+}
+
+.date {
+    font-size: medium;
+    font-style: oblique;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5vh 2vw;
+    height: 1vh;
+    margin-bottom: 0.5vhs;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicfoot {
+    margin: 2px 46px;
+    padding: 0px 0px;
+}
+
+.logo {
+    color: #279ac7;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+form {
+    border: 6px solid #279ac7;
+
+}
+
+.container {
+    padding: 15px;
+    background-color: white;
+
+}
+
+input[type=text],
+input[type=submit] {
+    width: 20%;
+    padding: 12px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 6px;
+}
+
+input[type=submit] {
+    background-color: #222222;
+    color: #279ac7;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.topicfoot a{
+    color: #279ac7;
+}
